@@ -4,4 +4,4 @@ print "Ciao", name
 
 # Restituisce un intero
 numero = input("Inserisci un valore ")
-print "Il numero e'", numero
+print "Il numero e' :", numero
