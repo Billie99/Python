@@ -15,9 +15,8 @@ if Scelta == 1:
 elif Scelta == 2:
 # Calcolo del volume di una sfera
 
-     pi = math.pi
      Raggio = input("Inserisci il valore del raggio di una sfera ")
-     Volume = (4.0/3.0) * pi * (Raggio * Raggio * Raggio)
+     Volume = (4.0/3.0) * math.pi * (Raggio * Raggio * Raggio)
 
      print "Il volume della sfera e':", Volume
  
