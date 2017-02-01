@@ -2,6 +2,8 @@
 
 import math
 
+print "Risolvere equazioni di 2° grado del tipo ax^2 + bx + c = 0 "
+
 a = input("Inserisci il valore di a ") # Coefficiente della x^2
 b = input("Inserisci il valore di b ") # Coefficiente della x
 c = input("Inserisci il valore di c ") # Termine noto
