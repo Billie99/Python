@@ -27,7 +27,6 @@ else:
 
 if delta < 0:
 
-
 # Discriminante minore di 0
 
    print "L'equazione non ammette soluzioni reali e distinte "
