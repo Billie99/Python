@@ -24,7 +24,6 @@ else:
      delta = (b * b) - (4 * (a) * (c))
      print "Abbiamo trovato il delta che e':",delta
      
-
 if delta < 0:
 
 # Discriminante minore di 0
