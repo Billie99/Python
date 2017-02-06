@@ -7,7 +7,7 @@ print "la quantita' di carburante ed il consumo orario "
 carburante = input("Carburante (in galloni): ")
 consumo = input("Consumo Orario (in galloni/h): ")
 
-if carburante and consumo < 0:
+if carburante < 0 or consumo < 0:
    print "Errore la quantita' di carburante e consumo devono essere positivi "
 
 else:
