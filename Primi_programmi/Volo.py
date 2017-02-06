@@ -16,7 +16,7 @@ else:
      ore = int(tempo_ore)
 
 # Calcolo dei minuti
-     tempo_minuti = tempo1 - ore
+     tempo_minuti = tempo_ore - ore
      minuti = int(tempo_minuti * 60) 
 
 # Calcolo dei secondi
