@@ -25,9 +25,6 @@ else:
      secondi = int(tempo3 * 60)
 
 # Un gallone equivale a 3.8 litri
-x = input("Inserisci il numero di galloni da convertire in litri ")
-
-galloni = float(x * 3.8)
 
 print "I galloni convertiti in litri sono:", galloni
 print "Tempo di volo:", ore ,"h", minuti ,"min", secondi ,"sec" 
