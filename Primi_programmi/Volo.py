@@ -12,17 +12,17 @@ if carburante < 0 or consumo < 0:
 
 else:
 # Calcolo delle ore
-     tempo1 = carburante / consumo
-     ore = int(tempo1)
+     tempo_ore = carburante / consumo
+     ore = int(tempo_ore)
 
 # Calcolo dei minuti
-     tempo2 = tempo1 - ore
-     minuti = int(tempo2 * 60) 
+     tempo_minuti = tempo1 - ore
+     minuti = int(tempo_minuti * 60) 
 
 # Calcolo dei secondi
-     min = tempo2 * 60
-     tempo3 = min - minuti
-     secondi = int(tempo3 * 60)
+     min = tempo_minuti * 60
+     tempo_secondi = min - minuti
+     secondi = int(tempo_secondi * 60)
 
 # Un gallone equivale a 3.8 litri
 
