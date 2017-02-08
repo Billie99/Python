@@ -25,3 +25,5 @@ class Giocatore:
      def stampa_munizioni(self):
 	 return self.munizioni
 
+     def spara(self):
+	 self.punti = self.punti - 1

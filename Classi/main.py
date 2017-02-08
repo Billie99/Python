@@ -1,8 +1,7 @@
 import time
 from giocatore import Giocatore
-from giocatore2 import Giocatore2
 
-nome = raw_input("Inserisci nome del giocatore ")
+nome = raw_input("Inserisci nome del giocatore -> ")
 
 g1 = Giocatore(nome, 10, 10)
 g1.imposta_nome(nome)
@@ -15,9 +14,9 @@ print "Fulmini:", g1.munizioni
 
 print " "
 
-nome = raw_input("Inserisci il nome del secondo giocatore ")
+nome = raw_input("Inserisci il nome del secondo giocatore -> ")
 
-g2 = Giocatore2(nome, 10, 10)
+g2 = Giocatore(nome, 10, 10)
 g2.imposta_nome(nome)
 print " "
 
@@ -44,7 +43,7 @@ else:
 time.sleep(1)
 
 print "Il Giocatore", g1.stampa_nome() , "e' stato colpito!" 
-print "Totale punti:", g2.danno()
+print "Totale punti:", g2.stampa_punti()
 
 print " "
 
@@ -54,7 +53,7 @@ print "Il Giocatore" ,g1.stampa_nome() , "e' stato colpito di nuovo!"
 for i in range(3):
     g2.spara()
 
-print "Totale punti:", g2.danno()   
+print "Totale punti:", g2.stampa_punti()   
 
 print " "
 
@@ -64,7 +63,7 @@ print "Il Giocatore" ,g1.stampa_nome() , "sta per morire!"
 for i in range(4):
     g2.spara()
 
-print "Totale punti:", g2.danno()
+print "Totale punti:", g2.stampa_punti()
 
 print " "
 print g1.stampa_nome(), "e' troppo debole per attaccare!"
@@ -76,7 +75,7 @@ print g1.stampa_nome(), "e' morto "
 for i in range(2):
     g2.spara()
 
-print "Totale punti:", g2.danno()
+print "Totale punti:", g2.stampa_punti()
 
 print " "
 
