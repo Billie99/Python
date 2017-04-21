@@ -1,13 +1,13 @@
-class Tempo:
+class Lista:
   def __init__(self):
       self.lista = []
 
-t = Tempo()
+l = Lista()
 
 i = 0;
 while i < 100:
 
       i = i + 1
-      t.lista.append(i)
+      l.lista.append(i)
 
-print t.lista
+print l.lista
