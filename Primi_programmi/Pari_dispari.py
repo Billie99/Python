@@ -5,5 +5,5 @@ if numero % 2 == 0:
    print "Il numero che hai inserito e' pari"
 
 else:
-     print "Il numero che hai inserito e' dispari con resto :" 
+     print "Il numero che hai inserito e' dispari" 
 
