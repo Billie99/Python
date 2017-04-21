@@ -1,4 +1,4 @@
-# Resrtituisce una stringa
+# Restituisce una stringa
 name = raw_input("Come ti chiami ? ")
 print "Ciao", name
 
