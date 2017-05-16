@@ -1,39 +1,36 @@
-from time import sleep
+import os
 
 numero = 0
 num = 0
 
-f = open("sum.dat", "r")
+file = os.path.isfile("sum.dat")
 
-if not f:
+if not file:
    print "Impossibile aprire il file sum.dat, e inesistente "
    exit(0)
 
-line = f.readline()
+else:
+    f = open("sum.dat", "r")
+    line = f.readline()
 
-num = int(line)
-f.close()
+    num = int(line)
+    f.close()
 
-print "Lettura del file sum.dat in corso ..."
-sleep(2)
+    print "Lettura del file sum.dat in corso ..."
 
-print "Valore corrente: ", num
-sleep(2)
-print " "
+    print "Valore corrente: ", num
+    print " "
 
-numero = input("Inserisci il valore da sommare ")
-sleep(2)
+    numero = input("Inserisci il valore da sommare ")
 
-numero = numero + num
+    numero = numero + num
 
-print "Nuovo valore:", numero
-sleep(2)
+    print "Nuovo valore:", numero
 
-f = open("sum.dat", "w")
-f.write(str(numero))
+    f = open("sum.dat", "w")
+    f.write(str(numero))
 
-print "Salvataggio nel file sum.dat in corso ... "
-print " "
-sleep(2)
+    print "Salvataggio nel file sum.dat in corso ... "
+    print " "
 
-f.close()
+    f.close()
