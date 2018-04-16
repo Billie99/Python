@@ -4,7 +4,7 @@ import math
 print "Calcolo del volume di un cubo o di una sfera"
 scelta = input("Effettua una scelta: (1 - Cubo, 2 - Sfera) ")
 
-if Scelta == 1:
+if scelta == 1:
 # Calcolo del volume di un cubo
    
    lato = input("Inserisci il valore di un lato del cubo: ")
