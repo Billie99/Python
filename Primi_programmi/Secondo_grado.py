@@ -26,19 +26,19 @@ else:
      delta = (b * b) - (4 * (a) * (c))
      print "Abbiamo trovato il delta che e':",delta
      
-if delta < 0:
+     if delta < 0:
 
 # Discriminante minore di 0
 
-   print "L'equazione non ammette soluzioni reali e distinte "
+     print "L'equazione non ammette soluzioni reali e distinte "
 
-elif delta == 0:
+     elif delta == 0:
 # Discriminante = 0
 
      x = -float(b) / (2.0 * a)
      print "L'equazione ammette due soluzioni coincidenti quindi x1 = x:", x
 
-else:
+     else:
 # Discriminante maggiore di 0
     
      print "L'equazione ammette due soluzioni reali e distinte "
